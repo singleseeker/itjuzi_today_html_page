@@ -99,7 +99,7 @@ a, a:link, a:hover {
             display: block;
             width: 100%;
             height: 100%;
-            z-index: 9999;
+            z-index: 9;
             border: none 0;
             border-radius: 2px;
             font-size: 18px;
@@ -195,6 +195,8 @@ a, a:link, a:hover {
         padding-left: 8px;
         font-size: 14px;
         color: #cccdd2;
+        width: 50px;
+        display: inline-block;
 
         &:hover {
             text-decoration: none;
@@ -285,6 +287,225 @@ a, a:link, a:hover {
                 text-decoration: underline;
             };
         }
+    }
+}
+
+#page-comment {
+    
+    #page-comment-title {
+
+        background: #fcf3ee;
+        
+        .media {
+            padding: 0 30px 15px;
+        }
+
+        .user-info {
+            
+            padding: 20px 30px 10px;
+
+            .user-name, strong {
+                position: relative;
+                top: 6px;
+            }
+
+            .strong {
+                color: #ccc;
+                left: 8px;
+                font-weight: normal;
+            }
+
+            .avatar img{
+                width: 32px;
+                height: 32px;
+                border-radius: 32px;
+                margin-right: 10px;
+            }
+
+            a {
+                color: #f7774a;
+                &:hover {
+                    text-decoration: underline;
+                };
+            }
+
+
+        }
+
+        a {
+            font-size: 14px;
+            color: #56453d;
+        }
+
+        p {
+            color: #ada8a2;
+            font-size: 12px;
+        }
+
+        a.pull-left{
+            &:hover {
+                text-decoration: none;
+            };
+
+            &:hover span {
+                text-decoration: none;
+                color: #f7774a;
+            };
+        }
+
+        
+        .media-object {
+
+
+            padding: 4px 10px 4px;
+            background: #eeeeee;
+            text-decoration: none;
+
+            span {
+                display: block;
+                text-align: center;
+            }
+
+            strong {
+                display: block;
+                text-align: center;
+                margin-top: 4px;
+                font-weight: normal;
+
+                &:hover {
+                    text-decoration: none;
+                    color: #56453d;
+                };
+            }
+        }
+
+        .media-heading {
+        
+            a {
+                
+                &:hover {
+                    text-decoration: none;
+                    color: #f7774a;
+                };
+            }
+
+        }
+
+        
+    }
+
+
+    #page-comment-like {
+
+        padding:0 30px;
+
+        h3 {
+            font-weight: normal;
+            font-size: 16px;
+
+            strong {
+                color: #f7774a;
+            }
+        }
+
+        li {
+            margin-bottom: 4px;
+            margin-right: 4px;
+            padding: 0;
+        }
+        
+        .avatar img{
+            width: 32px;
+            height: 32px;
+            border-radius: 32px;
+        }
+
+    }
+
+    #page-comment-post {
+        
+        padding:0 30px;
+
+        h3 {
+            font-weight: normal;
+            font-size: 16px;
+
+            strong {
+                color: #f7774a;
+            }
+        }
+
+        button {
+            background: #f7774a;
+            color: #fff;
+            z-index: 0;
+            border: none 0;
+            border-radius: 2px;
+            font-size: 18px;
+            float: right;
+        }
+    }
+
+    #page-comment-list {
+
+        padding:0 30px;
+        margin-bottom: 30px;
+
+        .media-body {
+
+            p {
+                color: #53443d;
+            }
+
+            .media-heading {
+                
+                font-size: 14px;
+                margin-bottom: 10px;
+
+                a {
+                    color: #f7774a; 
+
+                    &:hover{
+                        text-decoration: underline;
+                    };
+                }
+
+                strong {
+                    color: #ccc;
+                    font-weight: normal;
+                }
+               
+            }
+
+        }    
+
+        .avatar img{
+            width: 32px;
+            height: 32px;
+            border-radius: 32px;
+        }
+
+    }
+    
+}
+
+#show_all_comment {
+
+    z-index: 10000;
+    
+    .modal-dialog {
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 100%;
+        margin-left: 50%;
+    }
+
+    .modal-content {
+        border-radius: 0;
+        height: 100%;
+        overflow-y: scroll;
+        position: absolute;
     }
 }
 
