@@ -123,7 +123,7 @@ a, a:link, a:hover {
     }
 
     a.pull-left{
-        &:hover {
+        &:visited, &:focus, &:hover {
             text-decoration: none;
         };
 
@@ -343,7 +343,7 @@ a, a:link, a:hover {
         }
 
         a.pull-left{
-            &:hover {
+            &:visited, &:focus, &:hover {
                 text-decoration: none;
             };
 
@@ -509,6 +509,10 @@ a, a:link, a:hover {
     }
 }
 
+.modal.fade .modal-dialog {
+    transform: translate(0, 0);
+    transition: transform 0.3s ease-out 0s;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
