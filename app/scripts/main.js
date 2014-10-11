@@ -1,6 +1,6 @@
-'use strict';
-
 $(function(){
+
+	'use strict';
 	
 	$('#show_all_comment').on('shown.bs.modal', function () {
 		$('.modal-content').scrollTop(0);
