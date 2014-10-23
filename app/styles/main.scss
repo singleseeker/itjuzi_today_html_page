@@ -66,6 +66,17 @@ a, a:link, a:hover {
             };
         }
     }
+
+    .header-login-link {
+        a {
+            color: #f7774a;
+
+
+            &:hover{
+                text-decoration: underline;
+            };
+        }
+    }
 }
 
 #add-new-product {
@@ -77,7 +88,7 @@ a, a:link, a:hover {
     
 
     input {
-        line-height: 45px;
+        line-height: 20px;
         height: 45px;
         width: 100%;
     }
@@ -135,6 +146,15 @@ a, a:link, a:hover {
         .liked {
             color: #f7774a;
         }
+    }
+
+    .media-heading a {
+        font-size: 16px;
+    }
+
+    .media-body p {
+        font-size: 14px;
+        line-height: 20px;
     }
     
     .media-object {
@@ -205,6 +225,7 @@ a, a:link, a:hover {
         &:hover {
             text-decoration: none;
             color: #f7774a;
+            cursor: pointer;
         };
 
         span {
@@ -294,9 +315,44 @@ a, a:link, a:hover {
     }
 }
 
-#page-comment {
+#side-top {
+    h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+
+        a {
+            color: #ddd;
+            font-size: 14px;
+        }
+    }
+
+    .media-list {
+
+        margin-bottom: 15px;
+
+        .media-object {
+            color: #f7774a;
+            font-style: normal;
+
+
+            strong {
+                font-size: 20px;
+            }
+        } 
+
+        .media-body {
+
+            p {
+                color: #ada8a2;
+            }
+        }
+
+    }
     
-    #page-comment-title {
+
+}
+
+#page-comment-title {
 
         background: #fcf3ee;
         
@@ -399,9 +455,39 @@ a, a:link, a:hover {
 
         }
 
-        
+        .author {
+
+            a {
+                color: #f7774a;
+                &:hover {
+                    text-decoration: underline;
+                };
+            }
+
+            strong {
+                font-weight: normal;
+            }
+        }
+
+        .go-check-more {
+            a {
+                padding: 6px 12px;
+                display: block;
+                color: #f7774a;
+                border: 1px solid #f7774a;
+                border-radius: 15px;
+                position: relative;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                &:hover {
+                    text-decoration: underline;
+                };
+            }
+        }
     }
 
+#page-comment {
+    
 
     #page-comment-like {
 
