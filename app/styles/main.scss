@@ -341,6 +341,10 @@ a, a:link, a:hover {
         } 
 
         .media-body {
+            
+            a {
+                color: #333;
+            }
 
             p {
                 color: #ada8a2;
@@ -544,6 +548,7 @@ a, a:link, a:hover {
 
         padding:0 30px;
         margin-bottom: 30px;
+        min-height: 350px;
 
         .media-body {
 
