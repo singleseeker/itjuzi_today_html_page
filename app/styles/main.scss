@@ -133,6 +133,16 @@ a, a:link, a:hover {
         margin-bottom: 30px;
     }
 
+    .day .media {
+        margin-top: 0;
+        padding-top: 15px;
+
+        &:hover {
+            background: #eee;
+            cursor:pointer;
+        };
+    }
+
     a.pull-left{
         &:visited, &:focus, &:hover {
             text-decoration: none;

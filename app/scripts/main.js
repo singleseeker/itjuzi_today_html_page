@@ -49,4 +49,10 @@ $(function(){
 		return false;
 	});
 
+	// click day media than redirct to page
+	$('.day .media').click(function(){
+		window.location.href = 'http://baidu.com';
+		return falas;
+	})
+
 });
