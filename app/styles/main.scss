@@ -129,17 +129,15 @@ a, a:link, a:hover {
         }
     }
 
-    .media {
-        margin-bottom: 30px;
-    }
-
     .day .media {
         margin-top: 0;
         padding-top: 15px;
+        padding-bottom: 8px;
 
         &:hover {
             background: #eee;
             cursor:pointer;
+            border-radius: 3px;
         };
     }
 
@@ -340,6 +338,16 @@ a, a:link, a:hover {
 
         margin-bottom: 15px;
 
+        .media {
+            padding-top: 10px;
+
+             &:hover {
+                background: #eee;
+                cursor:pointer;
+                border-radius: 3px;
+            };
+        }
+
         .media-object {
             color: #f7774a;
             font-style: normal;
@@ -364,6 +372,26 @@ a, a:link, a:hover {
     }
     
 
+}
+
+#side-share {
+
+    margin-top: 40px;
+
+    #side-share-weibo,#side-share-weixin {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+    #side-share-weibo {
+        background: url(../images/weibo.png) left top no-repeat;
+    }
+
+    #side-share-weixin {
+        background: url(../images/weixin.png) left top no-repeat;
+    }
 }
 
 #page-comment-title {
