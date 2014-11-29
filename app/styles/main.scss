@@ -719,6 +719,58 @@ a, a:link, a:hover {
     border-top: 1px solid #d3d3d3;
 }
 
+.has-result-tips {
+    min-height: 500px;
+    border-top: 1px solid #d3d3d3;
+    padding-top: 50px;
+    color: #ada8a2;
+
+    h5 {
+        font-size: 20px;
+        color: #574842;
+    }
+
+    .normal-word {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .msg-list {
+        margin-bottom: 40px;
+    }
+
+    .unread-list ul {
+        padding-left: 15px;
+        color: #f7774a;
+
+        p {
+            color: #ada8a2;
+        }
+    }
+
+    .read-list ul {
+        color: #f7774a;
+        opacity: 0.65;
+        filter: alpha(opacity=65);
+
+        p {
+            color: #ada8a2;
+        }
+    }
+
+    li {
+        line-height: 40px;
+    }
+
+    a {
+        color: #f7774a;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
 .avatar img{
     width: 32px;
     height: 32px;
