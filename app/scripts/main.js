@@ -52,7 +52,11 @@ $(function(){
 	// click day media than redirct to page
 	$('.day .media').click(function(){
 		window.location.href = 'http://baidu.com';
-		return falas;
-	})
+		return false;
+	});
+
+	$('.header-login-link .dropdown > a').click(function(){
+		location.href = this.href;
+	});
 
 });

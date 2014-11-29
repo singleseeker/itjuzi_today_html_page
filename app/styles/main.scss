@@ -76,6 +76,18 @@ a, a:link, a:hover {
                 text-decoration: underline;
             };
         }
+
+        .avatar {
+            position: relative;
+            top: -4px;
+            margin-left: 20px;
+        }
+
+        strong sup {
+            font-weight: bold;
+            font-size: 22px;
+            top: 0px;
+        }
     }
 }
 
@@ -209,12 +221,6 @@ a, a:link, a:hover {
     p {
         color: #ada8a2;
         font-size: 12px;
-    }
-
-    .avatar img{
-        width: 32px;
-        height: 32px;
-        border-radius: 32px;
     }
 
     .des {
@@ -371,7 +377,6 @@ a, a:link, a:hover {
 
     }
     
-
 }
 
 #side-share {
@@ -706,6 +711,100 @@ a, a:link, a:hover {
 
 .no-result-txt {
     background: #f2f2f2;
+}
+
+.no-result-tips {
+    padding-top: 200px;
+    min-height: 500px;
+    border-top: 1px solid #d3d3d3;
+}
+
+.avatar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+}
+
+.notice-link {
+    margin-left: 10px;
+    display: inline-block;
+  
+}
+
+.header-login-link .dropdown-menu {
+    left: -20px;
+
+    li {
+        padding: 0 2px;
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+        border-bottom: 1px solid #d3d3d3;
+    }
+
+
+    .last-item {
+       border:0 none; 
+       margin-bottom:  20px;
+    }
+
+    .last {
+        margin-bottom: 0;
+        border:0 none;
+    }
+
+    a {
+        display: inline;
+        padding: 0;
+
+        &:hover {
+            background: none;
+        }
+    }
+}
+
+#page-header #btn-check-all {
+    color: #f00;
+}
+#page-header #btn-empty-all {
+    color: #bbb;
+}
+
+#page-header #notice-list-item {
+
+    display: inline-block;
+    padding-bottom: 10px;
+
+    &:hover{
+        text-decoration:none;
+    }
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+}
+
+.dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  left: 39px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.dropdown-menu:after {
+  position: absolute;
+  top: -6px;
+  left: 40px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  content: '';
 }
 
 /* Responsive: Portrait tablets and up */
