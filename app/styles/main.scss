@@ -832,6 +832,16 @@ a, a:link, a:hover {
     }
 }
 
+.comment-answer {
+    
+    color: #f7774a;
+
+    &:hover{
+        text-decoration:none;
+        color: #f7774a;
+    }
+}
+
 ul.nav li.dropdown:hover > ul.dropdown-menu {
         display: block;
 }
