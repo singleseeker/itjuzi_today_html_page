@@ -300,12 +300,31 @@ a, a:link, a:hover {
 }
 
 #page-footer {
-
+    
     margin-top: 25px;
 
     background-color: #36332e;
-    height: 121px;
     padding-top: 37px;
+    padding-bottom: 20px;
+
+    #mail-book {
+        color: #d9d5d4;
+        text-align: center;
+        margin-bottom: 60px;
+        position: relative;
+        top: 10px;
+
+        .btn-book {
+            background-color: #f7774a;
+            border-color: #f7774a;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
 
     .footer-logo {
         vertical-align: middle;
