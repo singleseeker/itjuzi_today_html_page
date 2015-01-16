@@ -59,4 +59,8 @@ $(function(){
 		location.href = this.href;
 	});
 
+    $('#handle-btn-group .nav-tabs > li > a').hover( function(){
+      $(this).tab('show');
+    });
+
 });

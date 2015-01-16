@@ -928,7 +928,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
     li {
         margin-bottom: 0;
-
+        a {
+            border: none 0;
+        }
         #btn-left-radius {
             margin: 0;
             border-radius: 10px 0 0 10px;
@@ -939,7 +941,16 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
             border-radius: 0 10px 10px 0 ;
         }
     }
+    
+    .active {
+        a {
+            background: #f00;
 
+            &:hover{
+                background: #000;
+            }
+        }
+    }
 
 }
 

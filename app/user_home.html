@@ -66,16 +66,16 @@
         </div>
         
         <div class="container">
-            <div class="col-sm-8 col-sm-offset-2">
-                <ul id="handl-my-follow" class="nav nav-tabs nav-list nav-list-link" role="tablist" id="myTab">
-                  <li role="presentation"><a  id="btn-left-radius" class="" href="#messages" role="tab" data-toggle="tab">我分享的产品</a></li>
+            <div class="col-sm-8 col-sm-offset-2" id="handle-btn-group">
+                <ul id="handl-my-follow" class="nav nav-tabs nav-list nav-list-link" role="tablist">
+                  <li role="presentation" class="active"><a  id="btn-left-radius" href="#messages" role="tab" data-toggle="tab">我分享的产品</a></li>
                   <li role="presentation"><a  id="btn-right-radius" class="" href="#settings" role="tab" data-toggle="tab">我点赞的产品</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="nav-content tab-content">
-          <div role="tabpanel" class="tab-pane" id="messages">
+          <div role="tabpanel" class="tab-pane active" id="messages">
             <div class="container seach-result-list"> 
                 <section id="content-info" class="row">
                     <div class="day">
@@ -281,11 +281,6 @@
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <script>
-          $(function () {
-            $('#myTab a:first').tab('show')
-          })
-        </script>
         <!-- endbuild -->
 </body>
 </html>
