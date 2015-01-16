@@ -919,6 +919,28 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         font-size: 16px;
         color: #ada8a2;
     }
+
+
+}
+
+#handl-my-follow {
+    padding: 0;
+
+    li {
+        margin-bottom: 0;
+
+        #btn-left-radius {
+            margin: 0;
+            border-radius: 10px 0 0 10px;
+        }
+
+        #btn-right-radius {
+            margin: 0;
+            border-radius: 0 10px 10px 0 ;
+        }
+    }
+
+
 }
 
 .nav-list {
