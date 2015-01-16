@@ -1,0 +1,291 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>个人主页</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+            <section id="page-header">
+                <div class="row">
+                    
+                    <h1 id="logo" class="col-sm-6">
+                        <a href="index.html" class="pull-left">TODAY</a>
+                        <strong class="pull-left">为每一个在今天发布的新产品点赞</strong>
+                    </h1>
+                    
+                    <div class="col-sm-6">
+                        <ul class="list-inline header-link ">
+                            <li class="pull-right"><a href="">注册</a></li>
+                            <li class="pull-right"><span>/</span></li>
+                            <li class="pull-right"><a href="">登录</a></li>
+                        </ul>
+
+                        <div class="search-form pull-right">
+                            <form action="">
+                                <input type="text" id="search-txt">
+                                <input type="submit" id="search-btn">
+                            </form>
+                        </div>
+                    </div>
+
+                </div>    
+
+            </section>
+        </div>
+        
+        <div class="user-page">
+            <p class="text-center">
+                <a>
+                    <img class="img-circle" src="http://itjuzi.com/images/5405baae05ad1.png">
+                </a>
+            </p>
+            <p class="text-center user-name"><a href="#"><strong>刘光宇</strong></a></p>
+            <p class="text-center user-des">我是描述我是描述我是描述 <span class="glyphicon glyphicon-pencil"></span></p>
+        </div>
+        
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+                <ul id="handl-my-follow" class="nav nav-tabs nav-list nav-list-link" role="tablist" id="myTab">
+                  <li role="presentation"><a class="" href="#messages" role="tab" data-toggle="tab">我分享的产品</a></li>
+                  <li role="presentation"><a class="" href="#settings" role="tab" data-toggle="tab">我点赞的产品</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav-content tab-content">
+          <div role="tabpanel" class="tab-pane" id="messages">
+            <div class="container seach-result-list"> 
+                <section id="content-info" class="row">
+                    <div class="day">
+                        <div class="media col-sm-12">
+                            <a class="pull-left" href="#" id="top_login">
+                                <div class="media-object">
+                                    <span class="glyphicon glyphicon-chevron-up"></span>
+                                    <strong>12</strong>
+                                </div>
+                            </a>
+                            <div class="media-body">
+                                <div class="row">
+                                    <div class="media-info col-sm-10" onclick="click_comment(this,event)">
+                                        <h4 class="media-heading"><strong><a id="today_title" target="_blank" href="#">我分享的产品</a></strong></h4>
+                                        <p>我是产品描述我是产品描述我是产品描述</p>
+                                    </div>
+                                    <div class="des col-sm-2">
+                                        <a target="_blank" href="#" class="avatar">
+                                            <img src="http://itjuzi.com/images/5405baae05ad1.png">
+                                        </a>
+                                        <a target="_blank" class="comment" href="#" item-id="1">
+                                            <span class="glyphicon glyphicon-comment"></span> 12
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media col-sm-12">
+                            <a class="pull-left" href="#" id="top_login">
+                                <div class="media-object">
+                                    <span class="glyphicon glyphicon-chevron-up"></span>
+                                    <strong>12</strong>
+                                </div>
+                            </a>
+                            <div class="media-body">
+                                <div class="row">
+                                    <div class="media-info col-sm-10" onclick="click_comment(this,event)">
+                                        <h4 class="media-heading"><strong><a id="today_title" target="_blank" href="#">我分享的产品</a></strong></h4>
+                                        <p>我是产品描述我是产品描述我是产品描述</p>
+                                    </div>
+                                    <div class="des col-sm-2">
+                                        <a target="_blank" href="#" class="avatar">
+                                            <img src="http://itjuzi.com/images/5405baae05ad1.png">
+                                        </a>
+                                        <a target="_blank" class="comment" href="#" item-id="1">
+                                            <span class="glyphicon glyphicon-comment"></span> 12
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media col-sm-12">
+                            <a class="pull-left" href="#" id="top_login">
+                                <div class="media-object">
+                                    <span class="glyphicon glyphicon-chevron-up"></span>
+                                    <strong>12</strong>
+                                </div>
+                            </a>
+                            <div class="media-body">
+                                <div class="row">
+                                    <div class="media-info col-sm-10" onclick="click_comment(this,event)">
+                                        <h4 class="media-heading"><strong><a id="today_title" target="_blank" href="#">我分享的产品</a></strong></h4>
+                                        <p>我是产品描述我是产品描述我是产品描述</p>
+                                    </div>
+                                    <div class="des col-sm-2">
+                                        <a target="_blank" href="#" class="avatar">
+                                            <img src="http://itjuzi.com/images/5405baae05ad1.png">
+                                        </a>
+                                        <a target="_blank" class="comment" href="#" item-id="1">
+                                            <span class="glyphicon glyphicon-comment"></span> 12
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="settings">
+            <div class="container seach-result-list"> 
+                <section id="content-info" class="row">
+                    <div class="day">
+                        <div class="media col-sm-12">
+                            <a class="pull-left" href="#" id="top_login">
+                                <div class="media-object">
+                                    <span class="glyphicon glyphicon-chevron-up"></span>
+                                    <strong>12</strong>
+                                </div>
+                            </a>
+                            <div class="media-body">
+                                <div class="row">
+                                    <div class="media-info col-sm-10" onclick="click_comment(this,event)">
+                                        <h4 class="media-heading"><strong><a id="today_title" target="_blank" href="#">我点赞的产品</a></strong></h4>
+                                        <p>我是产品描述我是产品描述我是产品描述</p>
+                                    </div>
+                                    <div class="des col-sm-2">
+                                        <a target="_blank" href="#" class="avatar">
+                                            <img src="http://itjuzi.com/images/5405baae05ad1.png">
+                                        </a>
+                                        <a target="_blank" class="comment" href="#" item-id="1">
+                                            <span class="glyphicon glyphicon-comment"></span> 12
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media col-sm-12">
+                            <a class="pull-left" href="#" id="top_login">
+                                <div class="media-object">
+                                    <span class="glyphicon glyphicon-chevron-up"></span>
+                                    <strong>12</strong>
+                                </div>
+                            </a>
+                            <div class="media-body">
+                                <div class="row">
+                                    <div class="media-info col-sm-10" onclick="click_comment(this,event)">
+                                        <h4 class="media-heading"><strong><a id="today_title" target="_blank" href="#">我点赞的产品</a></strong></h4>
+                                        <p>我是产品描述我是产品描述我是产品描述</p>
+                                    </div>
+                                    <div class="des col-sm-2">
+                                        <a target="_blank" href="#" class="avatar">
+                                            <img src="http://itjuzi.com/images/5405baae05ad1.png">
+                                        </a>
+                                        <a target="_blank" class="comment" href="#" item-id="1">
+                                            <span class="glyphicon glyphicon-comment"></span> 12
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media col-sm-12">
+                            <a class="pull-left" href="#" id="top_login">
+                                <div class="media-object">
+                                    <span class="glyphicon glyphicon-chevron-up"></span>
+                                    <strong>12</strong>
+                                </div>
+                            </a>
+                            <div class="media-body">
+                                <div class="row">
+                                    <div class="media-info col-sm-10" onclick="click_comment(this,event)">
+                                        <h4 class="media-heading"><strong><a id="today_title" target="_blank" href="#">我点赞的产品</a></strong></h4>
+                                        <p>我是产品描述我是产品描述我是产品描述</p>
+                                    </div>
+                                    <div class="des col-sm-2">
+                                        <a target="_blank" href="#" class="avatar">
+                                            <img src="http://itjuzi.com/images/5405baae05ad1.png">
+                                        </a>
+                                        <a target="_blank" class="comment" href="#" item-id="1">
+                                            <span class="glyphicon glyphicon-comment"></span> 12
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+          </div>
+        </div>
+
+        <section id="page-footer">
+            
+            <div class="container"> 
+                <div class="row">
+                    <img class="col-sm-2 footer-logo" src="images/footer_logo.png" alt="">
+                    <ul class="col-sm-3 list-inline footer-link ">
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">官方博客</a></li>
+                    </ul>
+                    <p class="copy-right col-sm-7 text-right">Copyright © 2013-2014 itjuzi.com | IT桔子,IT互联网公司产品数据库及商业信息服务 </p>
+                </div>
+            </div>
+
+        </section>
+ 
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script>
+          $(function () {
+            $('#myTab a:first').tab('show')
+          })
+        </script>
+        <!-- endbuild -->
+</body>
+</html>
