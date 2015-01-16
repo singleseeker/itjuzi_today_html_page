@@ -890,6 +890,65 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   content: '';
 }
 
+.user-page {
+
+    border-top: 1px solid #d3d3d3;
+    padding-top: 40px;
+    margin-bottom: 20px; 
+
+    p {
+        font-size: 24px;
+        color: #f7774a; 
+        
+        a > img {
+            width:160px;
+            height:160px;
+        }
+
+        a {
+            color: #f7774a;
+            text-decoration:none;
+        }
+    }
+
+    p.user-name {
+        font-size: 36px;
+    }
+    
+    p.user-des {
+        font-size: 16px;
+        color: #ada8a2;
+    }
+}
+
+.nav-list {
+    float: right;
+    padding:4px 6px;
+    border:#f7774a 2px solid;
+    border-radius:10px;
+    font-style: normal;
+}
+
+.nav-content {
+    padding-top:50px;
+}
+
+.nav-pills > li > a {
+    color: #f7774a;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus{
+    color: #f7774a;
+}
+
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+    background-color: #f7774a;
+    color: #fff;
+}
+
 @media only screen and (max-device-width: 480px) {
     .search-form { display: none; }
 
