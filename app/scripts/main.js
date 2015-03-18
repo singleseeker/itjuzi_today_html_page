@@ -63,4 +63,15 @@ $(function(){
       $(this).tab('show');
     });
 
+    // show item when hover on list_item
+    $('#album_list .list_item').hover(function() {
+    	$(this).find('.album_like').show();
+    } , function () {
+    	$(this).find('.album_like').hide();
+    });
+
+    $('.follow_on_item').click(function(){
+    	// do some ajax;
+    });
+
 });

@@ -1058,9 +1058,26 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
                     bottom: 5px;
     
                 }
+
+                .album_like {
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 30px;
+                    right: 20px;
+                    top: 25px;
+                    display: none;
+                    width: 23px;
+                    height: 20px;
+                    background: url(../images/xin.png) left top no-repeat;
+                }
+
             }
         }
     }
+}
+
+#album_list .album_like_selected {
+    background: url(../images/xin.png) left -20px no-repeat;
 }
 
 .nav-list {
