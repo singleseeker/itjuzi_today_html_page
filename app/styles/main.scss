@@ -924,7 +924,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 #handl-my-follow {
+
+    float: none;
+    margin: 0 auto;
     padding: 0;
+    width: 232px;
 
     li {
         margin-bottom: 0;
@@ -933,25 +937,130 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         }
         #btn-left-radius {
             margin: 0;
-            border-radius: 10px 0 0 10px;
+            border-radius: 5px 0 0 5px;
         }
 
         #btn-right-radius {
             margin: 0;
-            border-radius: 0 10px 10px 0 ;
+            border-radius: 0 5px 5px 0 ;
         }
+    }
+
+    a{
+        color: #f7774a;
     }
     
     .active {
         a {
-            background: #f00;
+            background: #f7774a;
+            color: #fff;
 
             &:hover{
-                background: #000;
+                background: #f7774a;
             }
         }
     }
 
+}
+
+.album_header {
+    position: relative;
+    min-height: 240px;
+    width: 100%;
+    height: 100%;
+
+    .today_album_img {
+        border-top: 1px solid #d3d3d3;
+        position: absolute;
+        max-width: 100%;
+        min-height: 233px;
+        margin-bottom: 20px;
+        background: #000;
+        z-index: -2;
+        
+    }
+
+    .today_album_bg{
+        width: 100%;
+        min-height: 233px;
+        position: absolute;
+        text-align: center;
+        opacity: 0.8;
+        background-color:rgba(0,0,0,0.65);
+    }
+    .today_album_info{
+        width: 100%;
+        min-height: 233px;
+        position: absolute;
+        text-align: center;
+        color: #fff;
+
+        .today_album_name{
+            font-size: 24px;
+            color: #fff;
+            padding-top: 70px;
+            margin-bottom: 3px;
+        }
+        .today_album_time{
+            font-size: 14px;
+            color: #fff;
+            opacity: 0.7;
+        }
+        .today_album_des{
+            font-size: 20px;
+            color: #fff;
+            opacity: 0.8;
+            margin-top: 20px;
+        }
+    }
+}
+
+.album_list{
+    position: relative;
+    padding-top: 70px;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+
+    .row{
+
+        .list_item{
+            padding: 15px 20px 160px;
+
+            .album_img{
+                position: absolute;
+                width:300px;
+                height:150px;
+            }
+            .album_bg{
+                width:300px;
+                height:150px;
+                position: absolute;
+                opacity: 1;
+                background-image: linear-gradient(rgba(0, 0, 0, 0), #000);
+            }
+            .album_info{
+
+                .album_name{
+                    position: absolute;
+                    font-size: 16px;
+                    color: #f7774a;
+                    /*opacity: 1;*/
+                    bottom: 23px;
+                    left: 30px;
+
+                }
+                .album_des{
+                    position: absolute;
+                    font-size: 12px;
+                    color: #fff;
+                    left: 30px;
+                    bottom: 5px;
+    
+                }
+            }
+        }
+    }
 }
 
 .nav-list {
